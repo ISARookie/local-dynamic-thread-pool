@@ -17,6 +17,7 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 @Configurable
 public class Application {
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
     }
@@ -45,7 +46,9 @@ public class Application {
 
             return Redisson.create(config);
         }
+
     }
+
 
     @Data
     @ConfigurationProperties(prefix = "redis.sdk.config", ignoreInvalidFields = true)
@@ -95,4 +98,5 @@ public class Application {
          */
         private boolean keepAlive = true;
     }
+
 }

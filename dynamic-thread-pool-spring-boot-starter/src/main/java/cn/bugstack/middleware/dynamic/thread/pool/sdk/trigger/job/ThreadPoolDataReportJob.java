@@ -1,8 +1,8 @@
 package cn.bugstack.middleware.dynamic.thread.pool.sdk.trigger.job;
 
+import cn.bugstack.middleware.dynamic.thread.pool.sdk.registry.IRegistry;
 import cn.bugstack.middleware.dynamic.thread.pool.sdk.domain.IDynamicThreadPoolService;
 import cn.bugstack.middleware.dynamic.thread.pool.sdk.domain.model.entity.ThreadPoolConfigEntity;
-import cn.bugstack.middleware.dynamic.thread.pool.sdk.registry.IRegistry;
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

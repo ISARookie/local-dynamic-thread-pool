@@ -1,0 +1,12 @@
+24-05-20.16:06:23.921 [main            ] INFO  Application            - Starting Application using Java 11.0.1 on DESKTOP-GHSQSE6 with PID 16588 (E:\jetbrainsSpeace\idea\local-dynamic-thread-pool\dynamic-thread-pool-admin\target\classes started by chen xu in E:\jetbrainsSpeace\idea\local-dynamic-thread-pool)
+24-05-20.16:06:23.923 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-05-20.16:06:24.556 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-20.16:06:24.557 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-20.16:06:24.574 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+24-05-20.16:06:24.909 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-05-20.16:06:24.918 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-05-20.16:06:24.918 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-05-20.16:06:24.918 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-05-20.16:06:25.025 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-05-20.16:06:25.026 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1069 ms
+24-05-20.16:06:25.274 [main            ] INFO  Version                - Redisson 3.26.0

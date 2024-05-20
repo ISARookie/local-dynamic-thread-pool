@@ -10,6 +10,11 @@ import org.redisson.api.RedissonClient;
 import java.time.Duration;
 import java.util.List;
 
+/**
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description Redis 注册中心
+ * @create 2024-05-12 16:22
+ */
 public class RedisRegistry implements IRegistry {
 
     private final RedissonClient redissonClient;
@@ -17,7 +22,6 @@ public class RedisRegistry implements IRegistry {
     public RedisRegistry(RedissonClient redissonClient) {
         this.redissonClient = redissonClient;
     }
-
 
     @Override
     public void reportThreadPool(List<ThreadPoolConfigEntity> threadPoolEntities) {
@@ -32,4 +36,5 @@ public class RedisRegistry implements IRegistry {
         RBucket<ThreadPoolConfigEntity> bucket = redissonClient.getBucket(cacheKey);
         bucket.set(threadPoolConfigEntity, Duration.ofDays(30));
     }
+
 }
